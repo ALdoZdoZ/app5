@@ -1,0 +1,350 @@
+/* start root */
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orang-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+  --main-color: #ff9800;
+}
+/* end  root */
+/* start box */
+.d-f {
+  display: flex;
+}
+.d-f-a {
+  display: flex;
+  align-items: center;
+}
+.d-f-b {
+  display: flex;
+  justify-content: space-between;
+}
+.d-f-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.d-f-c-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.f-ra {
+  flex-wrap: wrap;
+}
+.d-g {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+.d-b {
+  display: block;
+}
+
+/* end box */
+/* start margin and padding */
+.p-20 {
+  padding: 20px;
+}
+.p-0 {
+  padding: 0;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pt-50{
+  padding-top: 50px;
+}
+.pt-100{
+  padding-top: 100px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-50{
+  padding-bottom: 50px;
+}
+.pb-100{
+  padding-bottom: 100px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.pr {
+  padding-right: 10px;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+.m-30 {
+  margin: 30px;
+}
+.m-0 {
+  margin: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+/* end margin and padding */
+/* start color */
+.bgc-w {
+  background-color: white;
+}
+.c-b {
+  color: black;
+}
+.bgc-eee {
+  background-color: #eee;
+}
+.bgc-ccc {
+  background-color: #ccc;
+}
+.c-gy {
+  color: var(--grey-color);
+}
+.bgc-b {
+  background-color: var(--blue-color);
+}
+.bgc-or {
+  background-color: var(--orang-color);
+}
+.bgc-gr {
+  background-color: var(--green-color);
+}
+.bgc-red {
+  background-color: var(--red-color);
+}
+.bgc-y {
+  background-color: yellowgreen;
+}
+.bgc-m{
+  background-color: var(--main-color);
+}
+
+.c-w {
+  color: white;
+}
+.c-bl {
+  color: var(--blue-color);
+}
+.c-or {
+  color: var(--orang-color);
+}
+
+.c-gr {
+  color: var(--green-color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.c-6{
+  color: #666;
+}
+.c-ma{
+  color: var(--main-color);
+}
+
+/* end color color */
+/* start pos */
+.po-r {
+  position: relative;
+}
+.po-a {
+  position: absolute;
+}
+/* end pos */
+/* strarft text */
+
+.ta-c {
+  text-align: center;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fw-b {
+  font-weight: bold;
+}
+.cu-p{
+  cursor: pointer;
+}
+/* end text */
+/* strt boreder */
+.br-6 {
+  border-radius: 6px;
+}
+.br-10 {
+  border-radius: 10px;
+}
+.br-50 {
+  border-radius: 50%;
+}
+.b-no {
+  border: none;
+}
+.bc-ccc {
+  border-color: #ccc;
+}
+.btn-s {
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.w-f {
+  width: 100%;
+}
+.w-c {
+  width: fit-content;
+}
+.h-f {
+  height: 100%;
+}
+.h-c {
+  height: fit-content;
+}
+.w-100 {
+  width: 100px;
+}
+.h-100 {
+  height: 100px;
+}
+
+/*  end boreder */
+/* media */
+@media (max-width: 767px) {
+  .d-b-mo {
+    display: block;
+  }
+  .ta-cmo {
+    text-align: center;
+  }
+  .hid-none {
+    display: none;
+  }
+}
+/* componnts check box */
+.chek {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.check-switch {
+  background-color: #ccc;
+  position: relative;
+  height: 32px;
+  width: 76px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.check-switch::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f00d";
+  font-weight: 900;
+  background-color: white;
+  color: #aaa;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.chek:checked + .check-switch {
+  background-color: var(--blue-color);
+}
+.chek:checked + .check-switch::before {
+  content: "\f00c";
+  font-weight: 900;
+  left: 50px;
+  color: var(--blue-color);
+}
+/* end  */
